@@ -17,3 +17,4 @@ ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="Roblox Tried to kick you but we didnt let them kick you :D"wait(2)ab.Text="Status: Nine mang hod sud sud"end)
+print("Anti AFK Activated")
