@@ -1,2 +1,2 @@
-# NineHub
+# KaiHub
 lol
