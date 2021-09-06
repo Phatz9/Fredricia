@@ -13,7 +13,7 @@
                      ["color"] = tonumber(0x0E980E),
                  }}
              }
-
+         -- thanks foro#8122 on synx Discord fot this
         local newdata = game:GetService("HttpService"):JSONEncode(data)
         
         local headers = {
