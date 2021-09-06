@@ -1,3 +1,5 @@
+--All Credits to Hermit#3000 on Synapse X Discord 
+
 local Players = game:GetService('Players')
 local s,e = pcall(function()
     local GC = getconnections or get_signal_cons
