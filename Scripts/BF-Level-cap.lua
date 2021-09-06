@@ -1,19 +1,19 @@
-     print('Script Made By. Phat#9999')
+local levelcap = 703
+local discordid = '795621503101042696' 
+local url = 'https://discord.com/api/webhooks/875008563829952512/d2qykogRnhgpt7cp-gu6bsHkEwgHw11HtCQ5UJzUKlXPdPwGINHp3nymjhlFayVXGLvy' 
 
     if game.Players.LocalPlayer.Data.Level.Value >= levelcap then
 
         local username = game:GetService("Players").LocalPlayer.Name
 
-        game.Players.LocalPlayer:kick("            "..(username).." ".."Is Already Done!")
-
         local data = {
             ["content"] = "<".."@"..discordid..">",
                  ["embeds"] = {{
-                     ["description"] = "มาสเตอร์, รหัส".." ".."**"..username.." ".."**".."เลเวล".." "..levelcap.." ".."แล้วอย่าลืมไปปิดด้วยล่ะ!",          
+                     ["description"] = "มาสเตอร์, รหัส".." ".."**"..username.." ".."**".."เลเวล".." "..levelcap.." ".."แล้ว!",          
                      ["color"] = tonumber(0x0E980E),
                  }}
              }
-         -- thanks foro#8122 on synx Discord fot this
+
         local newdata = game:GetService("HttpService"):JSONEncode(data)
         
         local headers = {
@@ -26,3 +26,5 @@
 
         request(abcdef)
 
+        game:Shutdown()
+end
