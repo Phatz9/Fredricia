@@ -25,7 +25,7 @@ _b.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.176471)
 _b.Position = UDim2.new(0, 0, 0.800455689, 0)
 _b.Size = UDim2.new(0, 370, 0, 21)
 _b.Font = Enum.Font.Arial;
-_b.Text = "Copied by Phat#9999 (please donate)"
+_b.Text = "Skidded by Phat 😋"
 _b.TextColor3 = Color3.new(0, 1, 1)
 _b.TextSize = 20;
 ab.Parent = da
@@ -33,7 +33,7 @@ ab.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.176471)
 ab.Position = UDim2.new(0, 0, 0.158377, 0)
 ab.Size = UDim2.new(0, 370, 0, 44)
 ab.Font = Enum.Font.ArialBold;
-ab.Text = "Status: Nine mang hod sud sud"
+ab.Text = "Status: Phat so handsome"
 ab.TextColor3 = Color3.new(0, 1, 1)
 ab.TextSize = 20;
 local bb = game:service 'VirtualUser'
@@ -42,6 +42,6 @@ game:service 'Players'.LocalPlayer.Idled:connect(function()
     bb:ClickButton2(Vector2.new())
     ab.Text = "Roblox Tried to kick you but we didnt let them kick you :D"
     wait(2)
-    ab.Text = "Status: Nine mang hod sud sud"
+    ab.Text = "Status: Phat so handsome"
 end)
 print("Anti AFK Activated")
